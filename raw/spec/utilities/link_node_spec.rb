@@ -9,7 +9,6 @@ RSpec.describe Utilities::LinkNode do
   end
 
   describe ".to_array" do
-
     it 'is correct' do
       arr = make_list_and_return_root([1, 2, 3])
       expect(Utilities::LinkNode.to_array(arr)).to eq [1, 2, 3]
